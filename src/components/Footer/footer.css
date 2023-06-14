@@ -1,0 +1,32 @@
+.footer {
+    background-image: url("https://img.freepik.com/free-vector/dark-hexagonal-background-with-gradient-color_79603-1409.jpg?w=740&t=st=1686643848~exp=1686644448~hmac=ffa2e88bb6cc3de00cd9416427b0d6675b41f3a1198525e79f4d9b587dcb703d");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 25vh;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .footer__logo {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+} */
+.footer__contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 7px;
+}
+
+.footer__contact_link:hover {
+    color: rgb(231, 240, 240);
+}

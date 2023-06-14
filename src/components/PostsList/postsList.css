@@ -1,0 +1,20 @@
+
+
+.posts__container {
+    display: grid;
+    grid-template-columns: 412px 412px 412px;
+    gap: 30px 20px;
+    
+}
+
+@media (max-width: 1080px) {
+    .posts__container {
+        grid-template-columns: repeat(2, 2fr);
+    }
+}
+
+@media (max-width: 730px) {
+    .posts__container {
+        grid-template-columns: 1fr;
+    }
+}

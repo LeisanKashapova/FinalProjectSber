@@ -1,0 +1,20 @@
+.btn__back {
+    width: fit-content;
+    font-size: 12px;
+    line-height: 143%;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: rgb(50, 48, 47);
+    border-radius: 10px;
+    transition: all 0.2s;
+    border: none;
+    color: inherit;
+    font-weight: 600;
+    color: #eee8e6;
+}
+
+.btn__back:hover {
+    cursor: pointer;
+    color: rgb(243, 233, 233);
+    box-shadow: 3px 3px 9px 1px #a19b99;
+}

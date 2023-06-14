@@ -1,0 +1,51 @@
+.posts__title {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    padding: 10px 10px;
+    border: 1px solid rgb(42, 40, 40);
+    border-radius: 10px;
+    background-image: url("https://img.freepik.com/free-vector/dark-hexagonal-background-with-gradient-color_79603-1409.jpg?w=740&t=st=1686643848~exp=1686644448~hmac=ffa2e88bb6cc3de00cd9416427b0d6675b41f3a1198525e79f4d9b587dcb703d");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    gap: 20px;
+    z-index: 100;
+   margin-top: 0;
+}
+.post__title:hover {
+    box-shadow: 0 0 10px 2px rgb(102, 30, 4);
+}
+
+.wrapper__for_functional {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.posts__title-h3 {
+    display: flex;
+    gap: 10px;
+    
+}
+
+
+
+@media (max-width: 560px) {
+    .posts__title {
+        margin-top: 0;
+        gap: 15px;
+    }
+    .posts__title h1 {
+        font-size: 26px;
+    }
+    .posts__title-h3 h3 {
+        font-size: 16px;
+    }
+
+    .wrapper__for_functional {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+}
