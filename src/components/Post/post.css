@@ -2,8 +2,8 @@
     display: grid;
     gap: 20px;
     padding: 16px;
-    border-radius: 10px;
-    box-shadow: 0 0 1px 1px rgb(66, 4, 4);
+    border-radius: 20px;
+    box-shadow: 0 0 1px 1px rgb(40, 4, 102);
     justify-content: space-around;
     position: relative;
 }
@@ -24,7 +24,7 @@
 }
 
 .post:hover {
-    box-shadow: 0 0 10px 2px rgb(102, 30, 4);
+    box-shadow: 0 0 10px 2px rgb(40, 4, 102);
 }
 
 .post__header {
@@ -45,7 +45,8 @@
 
 .post__link {
     display: grid;
-    grid-template-rows: 30px 350px 100px;
+    grid-template-rows: 30px 350px 180px;
+   
     text-decoration: none;
     color: black;
     gap: 30px;
@@ -53,6 +54,9 @@
 
 .post__title {
     margin: 0;
+    border-radius: 20px;
+    padding-left: 10px;
+  
 }
 
 .post__image {

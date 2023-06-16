@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import './header.css';
-
+import { Airplane } from 'react-bootstrap-icons';
 import { Link } from 'react-router-dom';
 import Search from '../Search/Search';
 import { Context } from '../../context/Context';
@@ -31,7 +31,7 @@ const Header = () => {
                         </Link>
                     ) : (
                         <Link to='login'>
-                            <button className='button__profile'>Войти</button>
+                            <Airplane>Войти</Airplane>
                         </Link>
                         
                     )}

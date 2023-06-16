@@ -1,15 +1,17 @@
 .button__add {
     padding: 10px;
-    background-color: aliceblue;
+    
     border: none;
     border-radius: 10px;
     color: grey;
     font-weight: 600;
     transition: all 0.2s;
     cursor: pointer;
+    padding: 10px;
+    background-color: rgb(246, 245, 241);
 }
-
 .button__add:hover {
-    color: rgb(231, 222, 222);
-    box-shadow: 3px 3px 9px 1px #b1adad;
+    background-color: gray;
+    color: black;
+    box-shadow: 3px 3px 9px 1px #1e1b1b;
 }

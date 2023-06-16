@@ -1,6 +1,7 @@
 .detailsPost {
     display: grid;
     gap: 50px;
+    
 }
 
 .detailsPost__main {
