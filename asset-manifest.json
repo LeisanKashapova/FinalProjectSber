@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/FinalProjectSber/static/css/main.b8e4d751.css",
+    "main.js": "/FinalProjectSber/static/js/main.2bbff25c.js",
+    "static/media/NotFound.svg": "/FinalProjectSber/static/media/NotFound.386494cae8de0123c2928d136ac8904c.svg",
+    "index.html": "/FinalProjectSber/index.html",
+    "main.b8e4d751.css.map": "/FinalProjectSber/static/css/main.b8e4d751.css.map",
+    "main.2bbff25c.js.map": "/FinalProjectSber/static/js/main.2bbff25c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b8e4d751.css",
+    "static/js/main.2bbff25c.js"
+  ]
+}
