@@ -107,3 +107,25 @@
     display: flex;
     gap: 3px;
 }
+@media (max-width: 730px) {
+    .post__link {
+        grid-template-rows: auto;
+        text-decoration: none;
+        color: black;
+        gap: 20px;
+    }
+    .post__text {
+        margin: 0;
+        text-align: justify;
+        height: 90px;
+    }
+    .post {
+        min-width: 350px;
+    }
+    .post__tags {
+        margin-top: 50px;
+        display: flex;
+        gap: 5px;
+        font-size: 15px;
+    }
+}

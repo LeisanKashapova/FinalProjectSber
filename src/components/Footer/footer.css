@@ -7,13 +7,15 @@
     height: 25vh;
     color: aliceblue;
     display: flex;
+    justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .footer__content {
    display: grid;
    grid-template-columns: 2fr 2fr;
-   gap: 700px;
+   gap: 400px;
 }
 
 /* .footer__logo {
@@ -30,4 +32,12 @@
 
 .footer__contact_link:hover {
     color: rgb(231, 240, 240);
+}
+@media (max-width: 730px) {
+    .footer__content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+        font-size: 15px;
+     }
 }

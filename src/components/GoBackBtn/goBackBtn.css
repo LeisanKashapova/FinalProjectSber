@@ -18,3 +18,9 @@
     color: rgb(243, 233, 233);
     box-shadow: 3px 3px 9px 1px #a19b99;
 }
+@media (max-width: 730px) {
+    .btn__back {
+        font-size: 8px; 
+        line-height: 100%;
+    }
+}

@@ -2,7 +2,7 @@
     width: 90px;
     height: 90px;
     padding: 10px;
-    background-color: rgb(47, 4, 4);
+    background-color: rgb(29, 135, 177);
     border-radius: 50%;
     color: rgb(245, 241, 241);
     border: 1px solid rgb(231, 203, 203);
@@ -14,7 +14,16 @@
     
 }
 .button__add:hover {
-    background-color: rgb(144, 43, 43);
+    background-color: rgb(54, 24, 122);
     color: rgb(233, 219, 219);
     box-shadow: 3px 3px 9px 1px #d7bebe;
+}
+
+@media (max-width: 730px) {
+    .button__add {
+        border-radius: 10px;
+        width: 90px;
+        height: 40px; 
+        font-size: 8px;
+    }
 }

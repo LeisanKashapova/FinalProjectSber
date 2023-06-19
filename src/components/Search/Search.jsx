@@ -10,7 +10,7 @@ const Search = ({ setSearch }) => {
                 placeholder='Поиск...'
                 onChange={(e) => setSearch(e.target.value)}
             />
-            <SearchIcon className='search__icon' />
+            {/* <SearchIcon className='search__icon' /> */}
         </div>
     );
 };

@@ -31,7 +31,7 @@ const Header = () => {
                         </Link>
                     ) : (
                         <Link to='login'>
-                            <Airplane>Войти</Airplane>
+                            <Airplane className='airplane'>Войти</Airplane>
                         </Link>
                         
                     )}

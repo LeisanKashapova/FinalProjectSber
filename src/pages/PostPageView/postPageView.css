@@ -1,7 +1,6 @@
 .detailsPost {
     display: grid;
     gap: 50px;
-   
 }
 
 .detailsPost__main {
@@ -138,5 +137,8 @@
 @media (max-width: 730px) {
     .detailsPost__main {
         grid-template-columns: 1fr;
+    }
+    .detailsPost {
+        gap: 20px;
     }
 }
