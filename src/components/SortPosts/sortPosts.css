@@ -13,12 +13,14 @@
 .sort__posts_text {
     font-size: 25px;
     line-height: 143%;
-    color: grey;
+    color:white;
     cursor: pointer;
 }
 .sort__posts_text:hover {
     cursor: pointer;
-    color: rgb(246, 243, 242);
+    color: rgb(226, 226, 16);
+    /* color: rgb(246, 243, 242); */
+    text-shadow: 4px 4px 6px rgb(60, 55, 55);
 }
 
 .sort__posts_text_active {

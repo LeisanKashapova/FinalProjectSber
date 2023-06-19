@@ -6,8 +6,11 @@
     padding: 10px 10px;
     border: 1px solid rgb(250, 245, 245);
     border-radius: 10px;
-   
+    /* background-image: url("https://img.freepik.com/free-vector/dark-hexagonal-background-with-gradient-color_79603-1409.jpg?w=740&t=st=1686643848~exp=1686644448~hmac=ffa2e88bb6cc3de00cd9416427b0d6675b41f3a1198525e79f4d9b587dcb703d"); */
+    /* background-image: url("https://img.freepik.com/free-photo/still-life-with-human-brains_23-2150547673.jpg?w=740&t=st=1687174009~exp=1687174609~hmac=59e7c0d5286104a3e238ba8b4af8edb1568ce2e079fcc2d49d1f938f44ede601"); */
+    background-image: url("https://img.freepik.com/free-photo/still-life-with-human-brains_23-2150547663.jpg?w=740&t=st=1687174462~exp=1687175062~hmac=e340902daa111d95ecf7edcdc6b212bdd53f5f0a5c914b39128a7ad19ab05b44");
     background-size: cover;
+    /* background-size: contain; */
     background-position: center;
     background-repeat: no-repeat;
     gap: 20px;
@@ -16,7 +19,7 @@
    
 }
 .post__title:hover {
-    box-shadow: 0 0 10px 2px rgb(102, 30, 4);
+    box-shadow: 0 0 10px 2px rgb(140, 13, 151);
 }
 
 .wrapper__for_functional {

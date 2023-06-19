@@ -1,17 +1,20 @@
 .button__add {
+    width: 90px;
+    height: 90px;
     padding: 10px;
-    
-    border: none;
-    border-radius: 10px;
-    color: grey;
+    background-color: rgb(47, 4, 4);
+    border-radius: 50%;
+    color: rgb(245, 241, 241);
+    border: 1px solid rgb(231, 203, 203);
     font-weight: 600;
     transition: all 0.2s;
     cursor: pointer;
     padding: 10px;
-    background-color: rgb(246, 245, 241);
+    font-size: 15px;
+    
 }
 .button__add:hover {
-    background-color: gray;
-    color: black;
-    box-shadow: 3px 3px 9px 1px #1e1b1b;
+    background-color: rgb(144, 43, 43);
+    color: rgb(233, 219, 219);
+    box-shadow: 3px 3px 9px 1px #d7bebe;
 }

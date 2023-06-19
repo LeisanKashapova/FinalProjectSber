@@ -1,4 +1,9 @@
 .main {
-    background-color: rgb(245, 239, 232);
+    background-color: aliceblue;
+    /* background-image: url("https://img.freepik.com/free-vector/dark-hexagonal-background-with-gradient-color_79603-1409.jpg?w=740&t=st=1686643848~exp=1686644448~hmac=ffa2e88bb6cc3de00cd9416427b0d6675b41f3a1198525e79f4d9b587dcb703d"); */
+    /* background-image: url("https://img.freepik.com/free-photo/abstract-smooth-brown-wall-background-layout-design-web-template-business-report-with-smooth-circle-gradient-color_1258-54600.jpg?w=740&t=st=1687173090~exp=1687173690~hmac=bbf4ae5975a238c9fc8792bfa06c8293a6a3c7a1e659355f5101e1a6f6bdfc92"); */
+    /* background-size: cover; */
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
     padding: 20px 0 50px 0;
 }

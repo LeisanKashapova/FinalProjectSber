@@ -1,7 +1,7 @@
 .detailsPost {
     display: grid;
     gap: 50px;
-    
+   
 }
 
 .detailsPost__main {
@@ -73,7 +73,7 @@
 }
 
 .detailsPost__tag {
-    /* background-color: rgb(240, 235, 233); */
+  
     padding: 4px 7px;
     border: none;
     border-radius: 10px;
@@ -96,7 +96,7 @@
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    /* background-color: rgb(241, 234, 231); */
+   
     display: flex;
     gap: 3px;
     color: #2f2d2c;

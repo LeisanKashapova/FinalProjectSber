@@ -1,9 +1,10 @@
 .post {
     display: grid;
     gap: 20px;
+    background-color: aliceblue;
     padding: 16px;
     border-radius: 20px;
-    box-shadow: 0 0 1px 1px rgb(40, 4, 102);
+    box-shadow: 0 0 1px 1px rgb(61, 28, 67);
     justify-content: space-around;
     position: relative;
 }

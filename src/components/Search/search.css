@@ -1,7 +1,10 @@
 .search {
     width: 40%;
     position: relative;
-    color: aliceblue;
+    color: rgb(250, 255, 240);
+    margin-top: -30px;
+    z-index: 222;
+    position: relative;
 }
 
 .search__input {
