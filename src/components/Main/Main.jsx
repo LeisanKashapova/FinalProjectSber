@@ -7,9 +7,9 @@ import PostPageView from '../../pages/PostPageView/PostPageView';
 import ProfilePage from '../../pages/ProfilePage/ProfilePage';
 import AuthorizationForm from '../Forms/AuthorizationForm/AuthorizationForm';
 import IdentificationPage from '../../pages/IdentificationPage/IdentificationPage';
-import RegistrationForm from '../Forms/RegistrationForm/RegistrationForm';
-import ForgotPasswordForm from '../Forms/ForgotPasswordForm/ForgotPasswordForm';
-import ResetPasswordForm from '../Forms/ResetPasswordForm/ResetPasswordForm';
+// import RegistrationForm from '../Forms/RegistrationForm/RegistrationForm';
+// import ForgotPasswordForm from '../Forms/ForgotPasswordForm/ForgotPasswordForm';
+// import ResetPasswordForm from '../Forms/ResetPasswordForm/ResetPasswordForm';
 
 const Main = () => {
     return (
@@ -21,7 +21,7 @@ const Main = () => {
                     <Route path='/profile/:userId' element={<ProfilePage />}></Route>
                     <Route
                         path='*'
-                        element={<NotFoundPage title={'Простите, данная страница не найдена.'} />}
+                        element={<NotFoundPage title={'Страница не найдена'} />}
                     ></Route>
                     <Route
                         path='/login'

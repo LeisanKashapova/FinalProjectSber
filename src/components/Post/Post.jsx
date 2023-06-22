@@ -36,13 +36,19 @@ const Post = ({ post }) => {
                 </div>
             </Link>
             <Link to={`/post/${_id}`} className='post__link'>
+                <div className='h3title'>
                 <h3>
                     {title.length >= 60 ? title.slice(0, 60) + '...' : title}
                 </h3>
+                </div>
+                <div className='post__image-wrap'>
                 <img src={image} alt='post' className='post__image' />
+                </div>
+                <div className='ololo'>
                 <p className='post__text'>
                     {text.length >= 170 ? text.slice(0, 170) + '...' : text}
                 </p>
+                </div>
             </Link>
             <div className='post__tags'>
                 {!!tags.length &&

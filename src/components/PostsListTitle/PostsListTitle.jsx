@@ -23,7 +23,7 @@ const PostsListTitle = () => {
                     onClick={() => {
                         setActiveModal('addPostForm');
                         setPreviewPostImage(
-                            'https://jkfenner.com/wp-content/uploads/2019/11/default.jpg'
+                            'https://www.rostovregiongaz.ru/upload/medialibrary/91c/91c72c6f0032acd3ccfaddee2c1cd4ae.jpg'
                         );
                     }}
                 />

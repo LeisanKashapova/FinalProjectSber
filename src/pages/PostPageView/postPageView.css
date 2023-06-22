@@ -72,11 +72,12 @@
 }
 
 .detailsPost__tag {
-  
+    
     padding: 4px 7px;
     border: none;
     border-radius: 10px;
-    color: #2f2d2c;
+    text-shadow: 0.5px 0.5px 0.5px red;
+    color: #370437;
     font-weight: 600;
 }
 
@@ -95,7 +96,7 @@
     border: none;
     border-radius: 10px;
     cursor: pointer;
-   
+    background-color: aliceblue;
     display: flex;
     gap: 3px;
     color: #2f2d2c;

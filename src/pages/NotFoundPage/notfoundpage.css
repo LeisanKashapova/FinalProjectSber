@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    gap: 40px;
+    gap: 50px;
     margin-top: 50px;
     padding: 40px;
     border-radius: 10px;
@@ -14,20 +14,20 @@
     height: 80px;
 }
 .notFoundPage__title {
-    font-weight: 700;
-    line-height: 130%;
+    font-weight: 800;
+    line-height: 140%;
     color: #1a1a1a;
 }
 
 .notFoundPage__btn {
     padding: 9px 16px;
-    border: 1px solid #cfd8dc;
-    border-radius: 10px;
-    background: rgb(154, 151, 150);
+    border: 1px solid #76bbd9;
+    border-radius: 5px;
+    background: rgb(9, 111, 146);
     transition: all 0.2s;
 }
 
 .notFoundPage__btn:hover {
     cursor: pointer;
-    background: rgb(236, 231, 230);
+    background: rgb(156, 67, 189);
 }

@@ -5,6 +5,7 @@ import { api } from '../../../api/api';
 import { Context } from '../../../context/Context';
 import { splitTags } from '../../../utils/utils';
 import { imageOptions, textOptions, titleOptions } from '../formsOptions';
+// import "./main.css";
 
 const AddPostForm = ({ setActiveModal }) => {
     const { setPosts, previewPostImage, setPreviewPostImage } = useContext(Context);
@@ -32,15 +33,15 @@ const AddPostForm = ({ setActiveModal }) => {
                 type='text'
                 {...register('title', titleOptions)}
                 className={errors.title ? 'inputPost__input error' : 'inputPost__input'}
-                placeholder='Заголовок поста'
+                placeholder='Заголовок'
             />
             {errors.title && <span className='error__message'>{errors.title.message}</span>}
             <textarea
                 type='text'
                 {...register('text', textOptions)}
                 className={errors.text ? 'inputPost__input error' : 'inputPost__input'}
-                placeholder='Текст поста'
-                rows={1}
+                placeholder='Текст'
+                rows={4}
             />
             {errors.text && <span className='error__message'>{errors.text.message}</span>}
             <input
@@ -66,7 +67,7 @@ const AddPostForm = ({ setActiveModal }) => {
                 type='text'
                 {...register('tags')}
                 className='inputPost__input'
-                placeholder='Тэги через запятую'
+                placeholder='Тэги'
             />
             <button type='submit' className='inputPost__btn'>
                 Создать новый пост

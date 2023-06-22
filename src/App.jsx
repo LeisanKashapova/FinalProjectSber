@@ -13,7 +13,7 @@ function App() {
     const [search, setSearch] = useState(undefined);
     const [activeModal, setActiveModal] = useState('');
     const [previewPostImage, setPreviewPostImage] = useState(
-        'https://jkfenner.com/wp-content/uploads/2019/11/default.jpg'
+        'https://boiler-zip.ru/wp-content/uploads/2020/05/Net-foto-5.png'
     );
     const [postInfo, setPostInfo] = useState(preloadObj);
     const [postAllComment, setPostAllComment] = useState([]);

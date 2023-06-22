@@ -2,8 +2,8 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    border: 1px solid rgb(45, 44, 44);
-    border-radius: 10px;
+    border: 1px solid rgb(164, 24, 195);
+    border-radius: 5px;
     padding: 15px;
 }
 
@@ -35,8 +35,8 @@
     line-height: 143%;
     align-items: center;
     padding: 10px 15px;
-    background-color: rgb(43, 42, 41);
-    border-radius: 10px;
+    background-color: rgb(63, 9, 69);
+    border-radius: 5px;
     transition: all 0.2s;
     border: none;
     color: inherit;
@@ -50,7 +50,7 @@
 .addComment_btn:hover,
 .comments_btn:hover {
     color: rgb(243, 234, 234);
-    box-shadow: 3px 3px 9px 1px #58504d;
+    box-shadow: 3px 3px 9px 1px #7597ee;
 }
 .form__comments {
     display: grid;
